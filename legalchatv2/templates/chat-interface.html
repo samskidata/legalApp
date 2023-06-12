@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Interface</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/main.js' %}"></script>
+</head>
+<body>
+    <h1>Chat Interface</h1>
+    <div id="chatArea"></div>
+    <form id="messageForm" enctype="multipart/form-data">
+        <input type="file" id="fileInput" name="file" accept=".pdf,.doc,.txt,.csv">
+        <input type="text" id="messageInput" name="message">
+        <button id="sendButton" type="submit">Send</button>
+    </form>
+</body>
+</html>
